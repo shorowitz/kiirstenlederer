@@ -60,7 +60,7 @@ blockquote {
             border-radius: 10px;
 }
 
-#myMenu li.active{
+#myMenu li.active {
 	background: #FFE0B2;
 }
 
@@ -88,7 +88,7 @@ blockquote {
 }
 
 .bio {
-  background-image: url("footsteps.JPG");
+  background-image: url("footsteps.jpg");
   background-size: cover;
 }
 
@@ -99,7 +99,7 @@ blockquote {
 }
 
 .skills {
-  background-image: url("lemons.JPG");
+  background-image: url("lemons.jpg");
   background-size: cover;
 }
 
@@ -118,7 +118,7 @@ blockquote {
 }
 
 .contact {
-  background-image: url("building.JPG");
+  background-image: url("building.jpg");
   background-size: cover;
 }
 
@@ -175,7 +175,7 @@ and (max-device-width : 667px) {
     width: auto;
   }
   .skills {
-    background-image: url("lemons-mobile.jpeg");
+    background-image: url("lemons-mobile.jpg");
     background-size: cover;
   }
 }
