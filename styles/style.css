@@ -15,27 +15,25 @@ h2 {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 20px;
 }
 h3 {
-	font-size: 14px;
+	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 15.4px;
+  margin-bottom: 5px;
 }
 p {
-	font-size: 16px;
+	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-	line-height: 20px;
 }
 blockquote {
 	font-size: 21px;
-	font-style: normal;
+	font-style:italic;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 30px;
 }
 #myMenu {
@@ -49,6 +47,7 @@ blockquote {
   margin: 0;
   text-align: right;
 }
+
 
 #myMenu li {
   display: inline-block;
@@ -89,19 +88,54 @@ blockquote {
 }
 
 .bio {
+  background-image: url("footsteps.JPG");
+  background-size: cover;
+}
+
+.about {
   margin: 10px;
   padding-right: 60px;
   padding-left: 60px;
 }
 
+.skills {
+  background-image: url("lemons.JPG");
+  background-size: cover;
+}
+
+.container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.right {
+  width: 50%;
+}
+
+.contact {
+  background-image: url("building.JPG");
+  background-size: cover;
+}
+
 @media only screen
-and (min-device-width : 375px)
+and (min-device-width : 320px)
 and (max-device-width : 667px) {
+  body {
+    margin: 0 auto;
+  }
+  .section {
+    margin: 0 auto;
+  }
   #myMenu {
+    padding-top: 20px;
     text-align: center;
   }
   #myMenu li {
-    margin-top: 20px;
     font-size: 30px;
   }
   .home {
@@ -115,8 +149,17 @@ and (max-device-width : 667px) {
   h1 {
     font-size: 90px;
   }
-  p {
+  h2 {
+    font-size: 45px;
+  }
+  h3 {
     font-size: 30px;
+  }
+  blockquote {
+    font-size: 38px;
+  }
+  p {
+    font-size: 24px;
     line-height: normal;
   }
   #name {
@@ -124,5 +167,15 @@ and (max-device-width : 667px) {
   }
   #desc{
     font-size: 40px;
+  }
+  .container {
+    display: block;
+  }
+  .right {
+    width: auto;
+  }
+  .skills {
+    background-image: url("lemons-mobile.jpeg");
+    background-size: cover;
   }
 }
