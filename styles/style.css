@@ -256,6 +256,10 @@ and (max-device-width : 667px) {
   .job {
     width: auto;
   }
+
+  .job:nth-child(3) {
+    display: none;
+  }
   .skills {
     background-image: url("lemons-mobile.jpg");
     background-size: cover;
