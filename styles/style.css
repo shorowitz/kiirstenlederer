@@ -15,6 +15,7 @@ h2 {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
+  margin-bottom: 10px;
 }
 h3 {
 	font-size: 18px;
@@ -22,6 +23,10 @@ h3 {
 	font-variant: normal;
 	font-weight: 500;
   margin-bottom: 5px;
+}
+h2 a{
+  text-decoration: none;
+  color: #000;
 }
 p {
 	font-size: 14px;
@@ -33,8 +38,12 @@ blockquote {
 	font-size: 21px;
 	font-style:italic;
 	font-variant: normal;
-	font-weight: 500;
-	line-height: 30px;
+	font-weight: 600;
+}
+span a {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
 }
 #myMenu {
   position:fixed;
@@ -101,26 +110,95 @@ blockquote {
 .skills {
   background-image: url("./lemons.JPG");
   background-size: cover;
-  background-image:
+  margin: 0 auto;
+  text-align: center;
 }
 
-.container {
+.Fcontainer1 {
+  margin: 0 auto;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: center;
 }
 
-.right {
-  width: 50%;
+.Fcontainer2 {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.Fcontainer3 {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-list {
+  width: 30%;
+}
+
+.job {
+  width: 30%;
+}
+
+.job p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.resume {
+  margin: 0 auto;
+  width: 250px;
+  padding: 10px;
+  background: #FFE0B2;
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+
+.testimonials {
+  background-image: url("sea.jpg");
+  background-size: cover;
 }
 
 .contact {
-  background-image: url("building.JPG");
+  background-image: url("matcha.jpg");
   background-size: cover;
+}
+
+.contact h1 {
+  margin-bottom: 100px;
+}
+
+.email {
+  margin: 0 auto;
+  padding: 15px;
+  width: 600px;
+  background: #FCE4EC;
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+
+.social {
+  margin: 20px;
+  padding: 15px;
+  background: #FFE0B2;
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+
+.footer {
+  margin-top: 200px;
 }
 
 @media only screen
@@ -157,11 +235,14 @@ and (max-device-width : 667px) {
     font-size: 30px;
   }
   blockquote {
-    font-size: 38px;
+    font-size: 30px;
   }
   p {
-    font-size: 24px;
+    font-size: 26px;
     line-height: normal;
+  }
+  span a{
+    font-size: 40px;
   }
   #name {
     font-size: 90px;
@@ -169,10 +250,10 @@ and (max-device-width : 667px) {
   #desc{
     font-size: 40px;
   }
-  .container {
+  .Fcontainer2 {
     display: block;
   }
-  .right {
+  .job {
     width: auto;
   }
   .skills {
