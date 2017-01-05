@@ -145,7 +145,7 @@ span a {
 }
 
 .skill-list {
-  width: 30%;
+  width: 33%;
 }
 
 .job {
@@ -167,7 +167,7 @@ span a {
 }
 
 .testimonials {
-  background-image: url("sea.jpg");
+  background-image: url("./sea.JPG");
   background-size: cover;
 }
 
