@@ -77,7 +77,7 @@ blockquote {
 }
 
 .home {
-  background-image: url("./home.jpg");
+  background-image: url("home.jpg");
   background-size: cover;
 }
 
@@ -88,7 +88,7 @@ blockquote {
 }
 
 .bio {
-  background-image: url("./footsteps.JPG");
+  background-image: url("footsteps copy.jpg");
   background-size: cover;
 }
 
