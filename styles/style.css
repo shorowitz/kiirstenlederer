@@ -286,7 +286,7 @@ and (max-device-width : 667px) {
     font-size: 90px;
   }
   #desc{
-    font-size:60px;
+    font-size: 70px;
   }
   .container {
     display: block;
@@ -316,8 +316,7 @@ and (max-device-width : 667px) {
     max-width: 100%;
   }
   .testimonials img {
-      margin-top: 20px;
-      max-width: 40%;
+    max-width: 60%;
   }
   .contact .container {
     display: block;
