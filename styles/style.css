@@ -248,14 +248,7 @@ ul {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 600px)
-and (width : 375px)
-and (height : 559px)
-and (orientation : portrait)
-and (color : 8)
-and (device-aspect-ratio : 375/667)
-and (aspect-ratio : 375/559)
-and (device-pixel-ratio : 2)
-and (-webkit-min-device-pixel-ratio : 2) {
+ {
 
   body {
     margin: 0 auto;
@@ -295,6 +288,7 @@ and (-webkit-min-device-pixel-ratio : 2) {
     font-size: 90px;
   }
   #desc{
+    padding-top: 15px;
     font-size: 70px;
   }
   .container {
