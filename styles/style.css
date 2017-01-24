@@ -124,6 +124,11 @@ span a {
 }
 
 img {
+  max-width: 95%;
+  vertical-align: middle;
+}
+
+.vertical {
   max-width: 80%;
   vertical-align: middle;
 }
@@ -145,14 +150,14 @@ img {
     flex-direction: row-reverse;
 }
 
-.skill-list {
+/*.skill-list {
   margin: 0 auto;
   text-align: center;
   width: 50%;
   background-image: url("skills.jpg");
   background-size: cover;
   margin: 30px;
-}
+}*/
 
 ul {
   list-style-position: inside;
@@ -298,8 +303,8 @@ and (max-device-width : 600px)
     width: 100%;
   }
   img {
-    margin-top: 20px;
-    max-width: 40%;
+    /*margin-top: 20px;*/
+    max-width: 100%;
   }
   .text {
     width: 100%;
@@ -319,7 +324,7 @@ and (max-device-width : 600px)
     max-width: 100%;
   }
   .testimonials img {
-    max-width: 60%;
+    max-width: 100%;
   }
   .contact .container {
     display: block;
@@ -328,7 +333,7 @@ and (max-device-width : 600px)
   }
 
   .contact img {
-      max-width: 60%;
+      max-width: 100%;
     }
 
   .social a {
