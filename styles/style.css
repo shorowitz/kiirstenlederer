@@ -137,11 +137,12 @@ img {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 30px;
 }
 
 .about {
   width: 95%;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .skills .container {
@@ -308,6 +309,7 @@ and (max-device-width : 600px)
   }
   .text {
     width: 100%;
+    padding-top: 0;
   }
 
   .skills .container {
