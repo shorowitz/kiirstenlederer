@@ -1,20 +1,43 @@
+@font-face {
+  font-family:'andara';
+  src: url('./AndaraScript-Demo.eot');
+  src: url('./AndaraScript-Demo.eot?#iefix') format('embedded-opentype'),
+       url('./andara script-demo.otf') format('opentype'),
+       url('./AndaraScript-Demo.woff2') format('woff2'),
+       url('./AndaraScript-Demo.woff') format('woff'),
+       url('./andara script-demo.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'btitle';
+  src: url('./fonts/basictitlefont.eot');
+  src: url('./fonts/basictitlefont.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/basictitlefont.otf') format('opentype'),
+       url('./fonts/basictitlefont.woff') format('woff'),
+       url('./fonts/basictitlefont.ttf') format('truetype');
+}
+
+
 body {
   margin: 0 auto;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   text-align: center;
 }
 h1 {
+  font-family: "andara", sans-serif;
 	font-size: 50px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 }
 h2 {
-  font-size: 30px;
+  font-family: "btitle", sans-serif;
+  font-size: 50px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
 }
 h3 {
 	font-size: 18px;
@@ -65,9 +88,9 @@ span a {
             border-radius: 10px;
 }
 
-#myMenu li.active {
+/*#myMenu li.active {
 	background: #FFE0B2;
-}
+}*/
 
 #myMenu li a{
   text-decoration: none;
@@ -82,24 +105,37 @@ span a {
 }
 
 .home {
+  margin: 0 auto;
+  text-align: center;
   background-image: url("new-home.jpg");
   background-size: cover;
+
 }
+
+/*.home .container {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}*/
 
 .title {
   display: inline-block;
   background-color: rgba(255,255,255, 0.7);
   border-radius: 10px;
   padding: 10px;
+  margin: 10px;
 }
 
 #name {
   margin: 0;
   letter-spacing: 2px;
+  text-shadow: 3px 3px #fff;
+  font-size: 100px;
 }
 
-#desc {
-  margin-top: 5px;
+
+#and {
+  text-decoration: underline;
 }
 
 .container {
@@ -151,15 +187,6 @@ img {
     flex-direction: row-reverse;
 }
 
-/*.skill-list {
-  margin: 0 auto;
-  text-align: center;
-  width: 50%;
-  background-image: url("skills.jpg");
-  background-size: cover;
-  margin: 30px;
-}*/
-
 ul {
   list-style-position: inside;
   vertical-align: middle;
@@ -182,6 +209,15 @@ ul {
 .job-con {
   width: 95%;
     margin: 0 auto;
+}
+
+.job h3 {
+  font-family: "btitle", sans-serif;
+}
+
+.quote h3 {
+  font-family: "btitle", sans-serif;
+
 }
 
 .resume {
@@ -269,10 +305,10 @@ and (max-device-width : 600px)
   #myMenu li {
     font-size: 30px;
   }
-  .home {
+  /*.home {
     background-image: url("mobile-home.jpeg");
     background-size: cover;
-  }
+  }*/
 
   h1 {
     font-size: 90px;
@@ -291,9 +327,9 @@ and (max-device-width : 600px)
     font-size: 30px;
   }
   #name {
-    font-size: 90px;
+    font-size: 110px;
   }
-  #desc{
+  .desc{
     padding-top: 15px;
     font-size: 70px;
   }
