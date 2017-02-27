@@ -11,6 +11,10 @@ $(document).ready(function() {
         slidesNavigation: true,
         menu: '#myMenu',
         scrollBar: true,
-        autoScrolling: false
+        autoScrolling: false,
+        fitToSection: false
     });
+
+    // $.fn.fullpage.setMouseWheelScrolling(false);
+    // $.fn.fullpage.setAllowScrolling(false);
   });
