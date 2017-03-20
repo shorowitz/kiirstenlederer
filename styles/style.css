@@ -176,10 +176,10 @@ img {
   padding-top: 30px;
 }
 
-.about {
+/*.about {
   width: 95%;
   margin: 0 auto;
-}
+}*/
 
 .skills .container {
     display: flex;
@@ -228,6 +228,7 @@ ul {
 	-webkit-border-radius: 10px;
             border-radius: 10px;
   font-size: 30px;
+  font-family: "btitle", sans-serif;
 }
 
 .testimonials img {
@@ -275,6 +276,7 @@ ul {
 }
 .footer {
   margin-top: 150px;
+  font-family: "btitle", sans-serif; 
 }
 
 .Fcontainer3 {
