@@ -211,8 +211,22 @@ ul {
     margin: 0 auto;
 }
 
+.highlights h1 {
+  margin-bottom: 8px;
+}
+
 .job h3 {
   font-family: "btitle", sans-serif;
+}
+
+.job a {
+  text-decoration: underline;
+}
+
+.job p {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .quote h3 {
@@ -235,6 +249,10 @@ ul {
   max-width: 95%;
 }
 
+.testimonials h1 {
+  margin-bottom: 10px;
+}
+
 .quote {
   width: 95%;
   margin: 0 auto;
@@ -242,6 +260,7 @@ ul {
 
 .body {
   font-style: italic;
+  font-size: 14px;
 }
 
 .contact .container {
@@ -276,7 +295,7 @@ ul {
 }
 .footer {
   margin-top: 150px;
-  font-family: "btitle", sans-serif; 
+  font-family: "btitle", sans-serif;
 }
 
 .Fcontainer3 {
@@ -360,11 +379,20 @@ and (max-device-width : 600px)
     max-width: 40%;
     text-align: center;
   }
+
+  .job p {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .highlights {
     max-width: 100%;
   }
   .testimonials img {
     max-width: 100%;
+  }
+  .body {
+    font-size: 26px;
   }
   .contact .container {
     display: block;
